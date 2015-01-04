@@ -1,0 +1,12 @@
+Package: designer
+Type: Package
+Title: tools for design with R
+Version: 0.1.0
+Date: 2015-01-04
+Authors@R: person("Shinya", "Uryu", email = "suika1127@gmail.com", role =
+    c("aut", "cre"))
+Description: 
+License: MIT
+Depends:
+    R (>= 3.1.0)
+LazyData: true
