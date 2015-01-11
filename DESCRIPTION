@@ -1,12 +1,20 @@
 Package: designer
 Type: Package
-Title: tools for design with R
+Title: Design tools for R users
 Version: 0.1.0
-Date: 2015-01-04
+Date: 2015-01-12
 Authors@R: person("Shinya", "Uryu", email = "suika1127@gmail.com", role =
     c("aut", "cre"))
-Description: 
+URL: https://github.com/uribo/designer
+BugReports: https://github.com/uribo/designer/issues
+Description: not yet
 License: MIT
 Depends:
     R (>= 3.1.0)
+Imports:
+    dplyr,
+    ggplot2,
+    magrittr,
+    rvest,
+    stringr
 LazyData: true
