@@ -1,8 +1,8 @@
 Package: designer
 Type: Package
 Title: Design tools for R users
-Version: 0.1.0
-Date: 2015-01-12
+Version: 0.1.1
+Date: 2015-01-13
 Authors@R: person("Shinya", "Uryu", email = "suika1127@gmail.com", role =
     c("aut", "cre"))
 URL: https://github.com/uribo/designer
