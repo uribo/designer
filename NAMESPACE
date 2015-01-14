@@ -3,6 +3,4 @@
 export(color_picker)
 export(get_pal)
 export(get_shot_pal)
-export(gg_palette)
 import(magrittr)
-import(rvest)

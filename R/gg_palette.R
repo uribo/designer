@@ -1,5 +1,5 @@
 #' plot palette
-#' @export
+#'
 gg_palette <- function(palette) {
   x <- c(1:length(palette))
   y <- rep(1, length(palette))
