@@ -4,7 +4,7 @@
 \alias{get_pal}
 \title{generate color palette from Dribble}
 \usage{
-get_pal(url, pallet = 8)
+get_pal(url, pallet = 8, show = TRUE)
 }
 \arguments{
 \item{url}{input URL}

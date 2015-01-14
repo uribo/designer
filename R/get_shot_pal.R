@@ -1,8 +1,10 @@
 #' generate color palette from Dribble shot
 #'
-#' @import rvest
 #' @export
-get_shot_pal <- function (palette = 8, genre = c("debut", "recent", "teams", "playoffs", "animated"), post.n = 1) {
+get_shot_pal <- function (palette = 8, 
+                          genre   = c("debut", "recent", "teams", "playoffs", "animated"), 
+                          post.n  = 1,
+                          show    = TRUE) {
   
   base.url <- c("https://dribbble.com")
   
@@ -21,4 +23,11 @@ get_shot_pal <- function (palette = 8, genre = c("debut", "recent", "teams", "pl
   
   cols[1:palette]
   na.omit(cols)
+  
+  if(show == TRUE) {
+    colortools::pizza(cols)
+  } else {
+    NA
+    print(cols)
+  }
 }

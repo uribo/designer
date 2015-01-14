@@ -1,8 +1,8 @@
 Package: designer
 Type: Package
 Title: Design tools for R users
-Version: 0.1.1
-Date: 2015-01-13
+Version: 0.1.2
+Date: 2015-01-14
 Authors@R: person("Shinya", "Uryu", email = "suika1127@gmail.com", role =
     c("aut", "cre"))
 URL: https://github.com/uribo/designer
@@ -12,6 +12,7 @@ License: MIT
 Depends:
     R (>= 3.1.0)
 Imports:
+    colortools,
     dplyr,
     ggplot2,
     magrittr,

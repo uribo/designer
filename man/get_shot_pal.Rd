@@ -5,7 +5,7 @@
 \title{generate color palette from Dribble shot}
 \usage{
 get_shot_pal(palette = 8, genre = c("debut", "recent", "teams", "playoffs",
-  "animated"), post.n = 1)
+  "animated"), post.n = 1, show = TRUE)
 }
 \description{
 generate color palette from Dribble shot
