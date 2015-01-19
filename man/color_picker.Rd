@@ -2,11 +2,8 @@
 % Please edit documentation in R/color_picker.R
 \name{color_picker}
 \alias{color_picker}
-\title{color picker using in file}
-\usage{
-color_picker(file, show = TRUE)
-}
+\title{return using color in doc}
 \description{
-color picker using in file
+return using color in doc
 }
 
