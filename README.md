@@ -1,6 +1,6 @@
 # designer: Design tools for R users
 
-latest version... `0.1.2` (20150114)
+latest version... `0.1.2-2` (20150122)
 
 ## Installation
 
