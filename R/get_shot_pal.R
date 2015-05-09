@@ -1,5 +1,6 @@
 #' generate color palette from Dribble shot
 #'
+#' @import rvest
 #' @export
 get_shot_pal <- function (palette = 8, 
                           genre   = c("debut", "recent", "teams", "playoffs", "animated"), 

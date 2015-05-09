@@ -2,6 +2,7 @@
 #'
 #' @param url input URL
 #' @param pallet integer
+#' @import rvest
 #' @export
 get_pal <- function (url, pallet = 8, show = TRUE) {
   url <- html(url)
