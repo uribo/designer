@@ -4,7 +4,7 @@
 #' @param pallet integer
 #' @import rvest
 #' @export
-get_pal <- function (url, pallet = 8, show = TRUE) {
+get_pal <- function(url, pallet = 8, show = TRUE) {
   url <- html(url)
   cols <- url %>% 
     html_nodes("ul.color-chips li a") %>%
@@ -12,7 +12,7 @@ get_pal <- function (url, pallet = 8, show = TRUE) {
   cols[1:pallet]
   na.omit(cols)
   
-  if(show == TRUE) {
+  if (show == TRUE) {
     colortools::pizza(cols)
   } else {
     NA

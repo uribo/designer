@@ -2,7 +2,7 @@
 #'
 #' @import rvest
 #' @export
-get_shot_pal <- function (palette = 8, 
+get_shot_pal <- function(palette = 8, 
                           genre   = c("debut", "recent", "teams", "playoffs", "animated"), 
                           post.n  = 1,
                           show    = TRUE) {
@@ -15,7 +15,7 @@ get_shot_pal <- function (palette = 8,
     unique() %>%
     head(post.n)
   
-  request.url <-paste(base.url, request.url, sep = "")
+  request.url <- paste(base.url, request.url, sep = "")
   
   url <- html(request.url)
   cols <- url %>% 
@@ -25,7 +25,7 @@ get_shot_pal <- function (palette = 8,
   cols[1:palette]
   na.omit(cols)
   
-  if(show == TRUE) {
+  if (show == TRUE) {
     colortools::pizza(cols)
   } else {
     NA
